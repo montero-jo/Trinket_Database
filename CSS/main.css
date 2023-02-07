@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Quicksand', sans-serif;
+	
 }
 ol, ul {
 	list-style: none;
@@ -47,8 +49,28 @@ table {
 	border-spacing: 0;
 }
 
+.item {
+	border:1px solid black;
+	padding:20px;
+	margin:20px;
+	display:flex;
+}
+
+#container {
+
+	display:grid;
+	grid-template-areas:30px;
+}
+
 .trinket-image{
-    height: 300px;
+    max-height:300px;
+	margin-right:20px;
+	border-radius:30px;
+
+}
+
+.item-info{
+	margin-top:30px;
 }
 
 h3 {
